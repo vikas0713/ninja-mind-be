@@ -1,7 +1,7 @@
 from fastapi import Request, APIRouter
 
 
-router = APIRouter(prefix='/rfid/')
+router = APIRouter(prefix='/rfid')
 
 
 @router.get('/info/{rfid_tag_id}/')
